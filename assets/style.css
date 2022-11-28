@@ -1,0 +1,21 @@
+.mainHeading {
+    padding: 1px;
+    background-color: rosybrown;
+    text-align: center;
+
+}
+/* This should attach itself to all elements with an h1 tag */
+.header {
+
+  
+    
+}
+/* This should apply to all elements with a section tag */
+.section {
+background-color: white;
+padding: 2px;
+border: 1px;
+box-shadow: .5px black;
+
+}
+
