@@ -4,9 +4,10 @@
     margin-right: auto;
     background-color: palevioletred;
     text-align: center;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: 1.75px 1.75px black;
     color: white;
     font-size: 34px;
+   
     
     
 
@@ -20,8 +21,9 @@ height: 300px;
 }
 /* This should attach itself to all elements with an h1 tag */
 h2 {
-margin: 0px;
-padding: 0px;
+margin-top: 1px;
+margin-bottom: 0px;
+padding: 10px;
 border: 0px;
 display: block;
 background-color: lightpink;
@@ -37,14 +39,16 @@ font-size: 30px;
 background-color: white;
 padding: 2px;
 border: 1px;
-box-shadow: .5px black;
-box-sizing: content-box;
-width: 100%;
+
+
 }
 
 span {
 
     display: block;
+    margin-top: auto;
+    margin-bottom: 25px;
+    border: 10px;
     padding: 5px;
     background-color: palevioletred;
     color: black;
@@ -54,3 +58,19 @@ span {
 
 }
 
+.div {
+    background-color: palevioletred;
+}
+
+h3 {
+margin-top: 1px;
+margin-bottom: 35px;
+padding: 10px;
+border: 0px;
+display: block;
+background-color: lightpink;
+color: white;
+text-align: center;
+text-shadow: 1.5px 1.5px black;
+font-size: 30px;
+}
