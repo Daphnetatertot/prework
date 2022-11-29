@@ -5,9 +5,17 @@
 
 }
 /* This should attach itself to all elements with an h1 tag */
-.header {
+h2 {
+margin: 0px;
+padding: 0px;
+border: 0px;
+display: block;
+background-color: rosybrown;
+color: wheat;
+text-align: center;
+text-shadow: 2px 2px black;
+border-color: rosybrown;
 
-  
     
 }
 /* This should apply to all elements with a section tag */
@@ -16,6 +24,19 @@ background-color: white;
 padding: 2px;
 border: 1px;
 box-shadow: .5px black;
+box-sizing: content-box;
+width: 100%;
+}
+
+span {
+
+    display: block;
+    padding: 5px;
+    background-color: wheat;
+    color: rosybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
 
 }
 
