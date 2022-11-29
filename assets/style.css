@@ -31,6 +31,8 @@ color: white;
 text-align: center;
 text-shadow: 1.5px 1.5px black;
 font-size: 30px;
+border-radius: 35%;
+box-shadow: 6px 6px 6px palevioletred;
 
     
 }
@@ -55,6 +57,9 @@ span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     font-size: 18px;
+    text-align: justify;
+    box-shadow: 10px 10px 6px lightpink;
+  
 
 }
 
@@ -73,4 +78,9 @@ color: white;
 text-align: center;
 text-shadow: 1.5px 1.5px black;
 font-size: 30px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
