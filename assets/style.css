@@ -1,16 +1,21 @@
 .mainHeading {
     padding: 1px;
+    margin-right: auto; /* the margin property allowed me to stretch the photo across the entire tip of the page */
+    margin-right: auto;
     background-color: palevioletred;
     text-align: center;
     text-shadow: 1.5px 1.5px black;
     color: white;
     font-size: 34px;
+    
+    
 
 
 }
 .img {
+display: block;
 align-items: center;
-width: 1424px;
+width: 1418px;
 height: 300px;
 }
 /* This should attach itself to all elements with an h1 tag */
