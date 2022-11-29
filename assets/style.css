@@ -1,8 +1,17 @@
 .mainHeading {
     padding: 1px;
-    background-color: rosybrown;
+    background-color: palevioletred;
     text-align: center;
+    text-shadow: 1.5px 1.5px black;
+    color: white;
+    font-size: 34px;
 
+
+}
+.img {
+align-items: center;
+width: 1424px;
+height: 300px;
 }
 /* This should attach itself to all elements with an h1 tag */
 h2 {
@@ -10,11 +19,11 @@ margin: 0px;
 padding: 0px;
 border: 0px;
 display: block;
-background-color: rosybrown;
-color: wheat;
+background-color: lightpink;
+color: white;
 text-align: center;
-text-shadow: 2px 2px black;
-border-color: rosybrown;
+text-shadow: 1.5px 1.5px black;
+font-size: 30px;
 
     
 }
@@ -32,8 +41,8 @@ span {
 
     display: block;
     padding: 5px;
-    background-color: wheat;
-    color: rosybrown;
+    background-color: palevioletred;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     font-size: 18px;
